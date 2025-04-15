@@ -2,11 +2,11 @@
 
 ## Demo
 
-https://play-cat.github.io/TravelAgent/
+[https://play-cat.github.io/TravelAgent/](https://play-cat.github.io/BodyShape/)
 
 ## 📸 Screenshot
 
-![Screenshot](https://github.com/play-cat/BodyShape/raw/master/screenshot.jpg)
+![Screenshot](https://github.com/play-cat/BodyShape/raw/master/screenshot.png)
 
 ## 🔧 Technologies
 
