@@ -1,0 +1,40 @@
+.programs {
+  padding-block: 150px;
+
+  &__header {
+    max-width: 800px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__descr {
+    font-size: 1rem;
+    line-height: 2;
+    text-align: center;
+    color: var(--text-color);
+
+    p + p {
+      margin-top: 0.1rem;
+    }
+  }
+
+  &__cards {
+    margin-top: 50px;
+    display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 35px 30px;
+
+    @include respond('tablet') {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+
+  @include respond('tablet') {
+    padding-block: 50px;
+  }
+}

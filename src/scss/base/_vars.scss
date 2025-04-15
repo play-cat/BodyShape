@@ -1,0 +1,31 @@
+:root {
+  --container-padding: 15px;
+  // --container-width: 1200px;
+  --container-width: min(1200px, 100% - 30px);
+
+  --font-main: 'Roboto', sans-serif;
+  --font-accent: 'Bebas', sans-serif;
+  --font-titles: var(--font-accent);
+
+  --text-color: #fafaf5;
+  --second-text-color: #000000;
+  --accent-text-color: #ffd479;
+  --white-text-color: #fff;
+  --link-color: var(--text-color);
+
+  --page-bg: #1f2a32;
+
+  --main-color: #181818;
+  --second-color: #1f2a32;
+  --accent-color: #ffd479;
+  --white-color: #fff;
+
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

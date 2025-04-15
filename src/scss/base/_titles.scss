@@ -1,0 +1,21 @@
+.title {
+  font-family: var(--font-titles);
+  @include fluid-font-size(64px, 96px);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-transform: uppercase;
+
+  &_trainers,
+  &_programs,
+  &_contact-us {
+    color: var(--accent-text-color);
+  }
+
+  &_beast,
+  &_contact-us {
+    // font-size: 75px;
+    @include fluid-font-size(46px, 75px);
+    text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  }
+}

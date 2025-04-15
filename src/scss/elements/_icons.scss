@@ -1,0 +1,51 @@
+.icons-wrapper {
+  padding: 30px 0;
+  display: flex;
+  column-gap: 30px;
+}
+
+.icon {
+  fill: transparent;
+  stroke: transparent;
+  width: 24px;
+  height: 24px;
+
+  &--facebook {
+    fill: var(--accent-color);
+  }
+  &--instagram {
+    fill: var(--accent-color);
+  }
+  &--telegram {
+    fill: var(--accent-color);
+  }
+  &--threads {
+    fill: var(--accent-color);
+  }
+  &--tiktok {
+    fill: var(--accent-color);
+  }
+  &--envelope {
+    fill: var(--white-color);
+    // stroke: var(--white-color);
+  }
+  &--arrow {
+    fill: var(--white-color);
+  }
+
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    fill: var(--white-color);
+  }
+}
+
+// use
+.icon--user {
+  stroke: rgb(26, 134, 235);
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    stroke: rgb(17, 193, 90);
+  }
+}

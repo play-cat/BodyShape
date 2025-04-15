@@ -1,0 +1,18 @@
+<section class="programs" id="programs">
+  <div class="container">
+    <div class="programs__header" data-aos="fade-up">
+      <h2 class="title title_programs">Programs <br />and Sections</h2>
+      <div class="programs__descr">
+        <p>A variety of workouts and activities for all skill levels.</p>
+        <p>
+          Find your perfect program and begin your journey to health and
+          strength.
+        </p>
+      </div>
+    </div>
+    <div class="programs__cards" data-aos="fade-up" data-aos-delay="100">
+      <!-- cards -->
+      @@loop('./../elements/card-programs.html', './../json-data/programs.json')
+    </div>
+  </div>
+</section>

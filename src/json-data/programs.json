@@ -1,0 +1,10 @@
+[
+  { "program": "Workouts", "img": "01" },
+  { "program": "CrossFit", "img": "02" },
+  { "program": "Pilates", "img": "03" },
+  { "program": "Aerobics", "img": "04" },
+  { "program": "Endurance", "img": "05" },
+  { "program": "Performances", "img": "06" },
+  { "program": "Fitness", "img": "07" },
+  { "program": "Sculpting", "img": "08" }
+]

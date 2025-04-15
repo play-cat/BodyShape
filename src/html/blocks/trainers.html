@@ -1,0 +1,24 @@
+<section class="trainers" id="trainers">
+  <div class="container">
+    <div
+      class="trainers__header"
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+    >
+      <h2 class="title title_trainers">Personal Trainers</h2>
+      <div class="trainers__descr">
+        <p>
+          Our team consists of professional trainers who will help you achieve
+          your fitness goals.
+        </p>
+        <p>
+          Individualized approach, motivation, and support at every stage of
+          your journey to success.
+        </p>
+      </div>
+    </div>
+    <div class="trainers__cards" data-aos="fade-up">
+      @@loop('./../elements/card-trainer.html', './../json-data/trainers.json')
+    </div>
+  </div>
+</section>

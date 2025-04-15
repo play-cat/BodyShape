@@ -1,0 +1,33 @@
+.header {
+  padding: 0 0 100px;
+  min-height: 750px;
+  background-image: image-set(
+    url('./../../img/hero/hero-bg.jpg') 1x,
+    url('./../../img/hero/hero-bg@2x.jpg') 2x
+  );
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__img {
+    margin-top: 125px;
+    display: flex;
+    justify-content: flex-end;
+
+    @include respond('tablet') {
+      margin-top: 0;
+      justify-content: center;
+    }
+  }
+
+  @include respond('laptop') {
+    min-height: 500px;
+  }
+
+  @include respond('phone') {
+    min-height: auto;
+    height: auto;
+    padding: 0 0 60px;
+    background-position: left center; /* x y */
+  }
+}

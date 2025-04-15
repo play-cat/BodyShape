@@ -1,0 +1,59 @@
+.btn {
+  width: auto;
+  padding: 18px 46px;
+  border-radius: 8px;
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+  font-family: var(--font-accent);
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.26em;
+  display: inline-block;
+  transition: all 0.2s ease-in;
+
+  &_form-contact {
+    align-self: flex-start;
+  }
+
+  &_scroll-up {
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 60px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    z-index: 1000;
+
+    svg {
+      transform: rotate(-90deg);
+      width: 45px;
+      height: 45px;
+    }
+
+    &:not(.hide) {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    @include respond(1023) {
+      display: none !important;
+    }
+  }
+
+  &:hover {
+    // background-color: #fdc751;
+    background-color: color-mix(in srgb, var(--accent-color), rgb(0, 0, 0) 20%);
+  }
+}
